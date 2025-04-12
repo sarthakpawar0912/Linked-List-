@@ -29,6 +29,7 @@ public class SortLinkedList {
         // Return the head of the merged sorted list
     }
 
+
     // Merge two sorted lists into a single sorted list
     ListNode merge(ListNode list1, ListNode list2) {
         // Create a dummy node to serve as the head of the merged list
@@ -68,6 +69,7 @@ public class SortLinkedList {
         return dummyHead.next;
     }
 
+
     // Find the middle node and split the list into two halves
     ListNode getMid(ListNode head) {
         // Initialize midPrev to null (will track the node before the middle)
@@ -95,6 +97,7 @@ public class SortLinkedList {
         return mid;
     }
 
+
     // Definition of ListNode class
     class ListNode {
         int val;          // Value stored in the node
@@ -111,6 +114,7 @@ public class SortLinkedList {
             next = null;  // Initialize next pointer to null
         }
     }
+
 
     // Helper method to print the linked list
     private void printList(ListNode head) {
@@ -130,6 +134,7 @@ public class SortLinkedList {
         // Print newline at the end
         System.out.println();
     }
+
 
     // Main function to test the sorting
     public static void main(String[] args) {
