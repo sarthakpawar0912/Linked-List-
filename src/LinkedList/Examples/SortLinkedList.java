@@ -180,6 +180,7 @@ public class SortLinkedList {
         // Initialize an empty list (null)
         // List: empty
 
+
         // Run Test Case 1
         System.out.println("Test Case 1: Unsorted list");
         // Print test case description
@@ -193,6 +194,7 @@ public class SortLinkedList {
         // Label for sorted list
         sorter.printList(sorted1);
         // Print the sorted list: 1 -> 2 -> 3 -> 4
+
 
         // Run Test Case 2
         System.out.println("\nTest Case 2: Unsorted list with negatives");
@@ -208,6 +210,7 @@ public class SortLinkedList {
         sorter.printList(sorted2);
         // Print the sorted list: -1 -> 0 -> 3 -> 4 -> 5
 
+
         // Run Test Case 3
         System.out.println("\nTest Case 3: Single node");
         // Print test case description
@@ -222,6 +225,7 @@ public class SortLinkedList {
         sorter.printList(sorted3);
         // Print the sorted list: 1
 
+
         // Run Test Case 4
         System.out.println("\nTest Case 4: Empty list");
         // Print test case description
@@ -235,5 +239,7 @@ public class SortLinkedList {
         // Label for sorted list
         sorter.printList(sorted4);
         // Print the sorted list: (empty)
+
     }
+
 }
