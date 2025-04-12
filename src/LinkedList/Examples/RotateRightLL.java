@@ -163,6 +163,7 @@ public class RotateRightLL {
 
 
 /*
+
 How It Works:
 Step 1: Edge Cases:
 If head is null (empty list), head.next is null (single node), or k <= 0, no rotation is needed—return head.
@@ -193,4 +194,5 @@ Skip: skip = 5 - 2 = 3.
 Traverse: newLast = head, move 2 steps (i = 0 to 1): newLast = 3.
 Break: head = 3.next = 4, 3.next = null.
 Result: 4 -> 5 -> 1 -> 2 -> 3.
+
  */
