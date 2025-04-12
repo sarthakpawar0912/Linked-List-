@@ -1,6 +1,7 @@
 package LinkedList.Types;
 
 public class SignlyLinkedList {
+
     private Node head;    // Points to the first node in the list
     private Node tail;    // Points to the last node in the list for efficient end operations
     private int size;     // Tracks the number of nodes in the list
@@ -32,6 +33,7 @@ public class SignlyLinkedList {
         }
         System.out.println("END"); // Indicate the end of the list
     }
+
 
     // Insert a node at the end of the list
     public void insertLast(int val) {
@@ -160,4 +162,6 @@ public class SignlyLinkedList {
             this.next = next;           // Set the next reference
         }
     }
+
+
 }
