@@ -1,6 +1,7 @@
 package LinkedList.Examples;
 
 public class deleteDuplicates {
+
     private Node head;    // Points to the first node in the list
     private Node tail;    // Points to the last node in the list
     private int size;     // Tracks the number of nodes in the list
@@ -102,7 +103,6 @@ public class deleteDuplicates {
         // No need to set tail.next = null since it's already null at the end
     }
 
-
     // Merge two sorted linked lists into a new sorted list
     public static deleteDuplicates merge(deleteDuplicates first, deleteDuplicates second) {
         Node f = first.head;                     // Pointer to head of first list
@@ -134,8 +134,6 @@ public class deleteDuplicates {
 
         return ans;                              // Return the merged list
     }
-
-
 
 
     // Main method to test the functionality
@@ -177,7 +175,6 @@ public class deleteDuplicates {
         deleteDuplicates ans=deleteDuplicates.merge(first,second);
         ans.display();
 
-
-
     }
+
 }
