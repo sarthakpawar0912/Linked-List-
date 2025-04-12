@@ -3,6 +3,7 @@ package LinkedList.Examples;
 // Problem: https://leetcode.com/problems/palindrome-linked-list/
 public class PalindromeLL {
 
+
     // Check if the linked list is a palindrome
     public boolean isPalindrome(ListNode head) {
         // If list is empty or has one node, it’s a palindrome
@@ -29,6 +30,7 @@ public class PalindromeLL {
 
         // Compare both halves
         boolean isPalindrome = true; // Flag to track if it’s a palindrome
+
         while (p2 != null) {        // Only check until second half ends
             // If values don’t match, it’s not a palindrome
             if (p1.val != p2.val) {
@@ -46,7 +48,9 @@ public class PalindromeLL {
 
         // Return whether the list is a palindrome
         return isPalindrome;
+
     }
+
 
     // Find the middle node of the list using slow and fast pointers
     public ListNode middleNode(ListNode head) {
@@ -70,6 +74,7 @@ public class PalindromeLL {
         return slow;
         // For odd length, it’s the middle; for even, it’s the second middle
     }
+
 
     // Reverse the linked list iteratively
     public ListNode reverseList(ListNode head) {
@@ -104,6 +109,7 @@ public class PalindromeLL {
         return prev;
         // Return the head of the reversed list (original tail)
     }
+
 
     // Definition of ListNode class
     class ListNode {
