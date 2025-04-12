@@ -3,6 +3,7 @@ package LinkedList.Examples;
 // Problem: https://leetcode.com/problems/reorder-list/
 public class ReorderList {
 
+
     // Reorder the linked list: L0 -> Ln -> L1 -> Ln-1 -> ...
     public void reorderList(ListNode head) {
         // If list is empty or has one node, no reordering needed
@@ -10,6 +11,7 @@ public class ReorderList {
             // Return as is
             return;
         }
+
 
         // Step 1: Find the middle node of the list
         ListNode mid = middleNode(head);
@@ -26,6 +28,7 @@ public class ReorderList {
             temp = temp.next;
         }
         temp.next = null;             // Disconnect first half from second half
+
 
         // Step 4: Merge the first and reversed second halves alternately
         while (firstHalf != null && secondHalf != null) {
@@ -46,12 +49,14 @@ public class ReorderList {
             }
         }
 
+
         // Step 5: Ensure the tail’s next is null (if any nodes remain)
         if (firstHalf != null) {
             firstHalf.next = null;  // Terminate list if first half has extra node
         }
         // Note: secondHalf being non-null is handled naturally by the merge
     }
+
 
     // Find the middle node of the list using slow and fast pointers
     public ListNode middleNode(ListNode head) {
@@ -62,6 +67,7 @@ public class ReorderList {
         // Initialize fast pointer to head
         ListNode fast = head;
         // 'fast' moves two steps at a time
+
 
         // Move pointers until fast reaches the end
         while (fast != null && fast.next != null) {
@@ -75,6 +81,7 @@ public class ReorderList {
         return slow;
         // For odd length, it’s the middle; for even, it’s the second middle
     }
+
 
     // Reverse the linked list iteratively
     public ListNode reverseList(ListNode head) {
