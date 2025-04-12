@@ -85,9 +85,5 @@ public class Main {
         // Display the circular linked list
         list2.display();
 
-
-
-
-
     }
 }
