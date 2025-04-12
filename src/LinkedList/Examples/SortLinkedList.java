@@ -3,6 +3,7 @@ package LinkedList.Examples;
 // Problem: https://leetcode.com/problems/sort-list/description/
 public class SortLinkedList {
 
+
     // Sort the linked list using merge sort
     public ListNode sortList(ListNode head) {
         // Check if the list is empty or has only one node
