@@ -3,6 +3,7 @@ package LinkedList.Examples;
 //problem:142:https://leetcode.com/problems/linked-list-cycle-ii/
 public class detectCycle {
 
+
     class ListNode {
         int val;              // Value stored in the node
         ListNode next;        // Reference to the next node
@@ -13,6 +14,7 @@ public class detectCycle {
             next = null;      // Next is null by default
         }
     }
+
 
     public int lengthCycle(ListNode head) {
         // If list is empty or has one node, no cycle possible
