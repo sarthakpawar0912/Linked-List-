@@ -104,15 +104,18 @@ public class ReverseLLUsingIteration {
         // Add node with value 2
         // List: 1 -> 2
 
+
         // Test Case 3: Single node: 1
         ListNode head3 = reverser.new ListNode(1);
         // Create a single node with value 1
         // List: 1
 
+
         // Test Case 4: Empty list
         ListNode head4 = null;
         // Initialize an empty list (null)
         // List: empty
+
 
         // Run Test Case 1
         System.out.println("Test Case 1: Multiple nodes");
