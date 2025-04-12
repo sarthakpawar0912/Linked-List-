@@ -3,6 +3,7 @@ package LinkedList.Examples;
 // Problem: Detect if a linked list has a cycle
 public class HappyNumber {
 
+
     // Definition for singly-linked list node
     class ListNode {
         int val;          // Value stored in the node
@@ -13,6 +14,7 @@ public class HappyNumber {
             next = null;
         }
     }
+
 
     // Method to detect cycle in linked list using Floyd's algorithm
     public boolean hasCycle(ListNode head) {
@@ -34,6 +36,7 @@ public class HappyNumber {
 
         return false;  // No cycle found if fast reaches end
     }
+
 
     // Main function to test cycle detection
     public static void main(String[] args) {
@@ -64,4 +67,5 @@ public class HappyNumber {
         System.out.println("Test 3 (single node): " + cycleDetector.hasCycle(head3));
         System.out.println("Test 4 (empty list): " + cycleDetector.hasCycle(head4));
     }
+
 }
