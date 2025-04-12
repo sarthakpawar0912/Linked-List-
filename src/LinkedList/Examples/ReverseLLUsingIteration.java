@@ -38,6 +38,7 @@ public class ReverseLLUsingIteration {
         // Return the head of the reversed list (original tail)
     }
 
+
     // Definition of ListNode class
     class ListNode {
         int val;          // Value stored in the node
@@ -54,6 +55,7 @@ public class ReverseLLUsingIteration {
             next = null;  // Initialize next pointer to null
         }
     }
+
 
     // Helper method to print the linked list
     private void printList(ListNode head) {
