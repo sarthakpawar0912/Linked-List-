@@ -85,6 +85,7 @@ public class detectCycle {
 
 
     public static void main(String[] args) {
+
         detectCycle cycle = new detectCycle();
 
         // Create a list with a cycle: 1 -> 2 -> 3 -> 4 -> 2 (cycle at 2)
