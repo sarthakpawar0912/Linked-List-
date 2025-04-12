@@ -73,6 +73,7 @@ public class RotateRightLL {
         }
     }
 
+
     // Helper method to print the linked list
     private void printList(ListNode head) {
         // Start from the head of the list
@@ -91,6 +92,7 @@ public class RotateRightLL {
         // Print newline at the end
         System.out.println();
     }
+
 
     // Main function to test the rotateRight method
     public static void main(String[] args) {
@@ -156,6 +158,7 @@ public class RotateRightLL {
         rotator.printList(rotated4);
         // Expected: (empty)
     }
+
 }
 
 
