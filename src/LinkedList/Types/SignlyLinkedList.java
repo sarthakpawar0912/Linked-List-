@@ -6,12 +6,14 @@ public class SignlyLinkedList {
     private Node tail;    // Points to the last node in the list for efficient end operations
     private int size;     // Tracks the number of nodes in the list
 
+
     // Constructor to initialize an empty list
     public SignlyLinkedList() {
         this.size = 0;    // Set size to 0 since the list starts empty
         this.head = null; // Initialize head as null (no nodes yet)
         this.tail = null; // Initialize tail as null (no nodes yet)
     }
+
 
     // Insert a node at the beginning of the list
     public void insertFirst(int val) {
@@ -23,6 +25,7 @@ public class SignlyLinkedList {
         }
         size++;                    // Increment the size of the list
     }
+
 
     // Display the list from head to end
     public void display() {
@@ -47,6 +50,7 @@ public class SignlyLinkedList {
         size++;                    // Increment the size
     }
 
+
     // Insert a node at a specific index (0-based)
     public void insert(int val, int index) {
         if (index == 0) {          // If inserting at the beginning
@@ -66,6 +70,7 @@ public class SignlyLinkedList {
         size++;                    // Increment the size
     }
 
+
     // Delete the last node and return its value
     public int deleteLast() {
         if (size <= 1) {           // If the list has 0 or 1 node
@@ -79,6 +84,7 @@ public class SignlyLinkedList {
         return val;                // Return the deleted value
     }
 
+
     // Find a node with a specific value
     public Node find(int value) {
         Node node = head;          // Start from the head
@@ -91,6 +97,7 @@ public class SignlyLinkedList {
         return null;               // Return null if not found
     }
 
+
     // Get the node at a specific index (0-based)
     public Node get(int index) {
         Node node = head;          // Start from the head
@@ -99,6 +106,7 @@ public class SignlyLinkedList {
         }
         return node;               // Return the node at the index
     }
+
 
     // Delete the first node and return its value
     public int deleteFirst() {
@@ -110,6 +118,7 @@ public class SignlyLinkedList {
         size--;                    // Decrement the size
         return val;                // Return the deleted value
     }
+
 
     // Delete a node at a specific index and return its value
     public int delete(int index) {
@@ -126,6 +135,7 @@ public class SignlyLinkedList {
         return val;                // Return the deleted value
     }
 
+
     // Public method to insert a node recursively at a specific index
     public void insertRec(int val, int index) {
         head = insertRec(val, index, head); // Start recursion from head and update head
@@ -133,6 +143,7 @@ public class SignlyLinkedList {
             tail = get(size - 1);           // Update tail to the new last node
         }
     }
+
 
     // Private recursive method to insert a node
     private Node insertRec(int val, int index, Node node) {
