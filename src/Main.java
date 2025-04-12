@@ -46,8 +46,8 @@ public class Main {
 
 
 
-    //Doubly LinkedList
-    // Create a new doubly linked list instance
+         //Doubly LinkedList
+        // Create a new doubly linked list instance
         DoublyLinkedList list1 = new DoublyLinkedList();
 
         // Insert elements at the beginning
