@@ -94,7 +94,6 @@ public class detectCycle {
         head.next.next = cycle.new ListNode(3);
         head.next.next.next = cycle.new ListNode(4);
         head.next.next.next.next = head.next; // Create cycle by linking 4 back to 2
-
-
     }
+
 }
