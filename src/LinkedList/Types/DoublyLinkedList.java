@@ -1,6 +1,7 @@
 package LinkedList.Types;
 
 public class DoublyLinkedList {
+
     Node head; // The starting point of the list, initially null
 
     // Insert a new node with value `val` at the beginning of the list
@@ -13,6 +14,7 @@ public class DoublyLinkedList {
         }
         head = node;              // Make the new node the new head
     }
+
 
     // Display the list forward and backward
     public void display() {
@@ -34,6 +36,7 @@ public class DoublyLinkedList {
         System.out.println("START"); // Indicate the start of the list in reverse
     }
 
+
     // Find the first node with the given value
     public Node find(int value) {
         Node node = head;         // Start from the head
@@ -45,6 +48,7 @@ public class DoublyLinkedList {
         }
         return null;              // Return null if value not found
     }
+
 
     // Insert a new node with value `val` at the end of the list
     public void insertLast(int val) {
@@ -63,6 +67,7 @@ public class DoublyLinkedList {
         node.prev = last;         // Set the new node's previous to the old last node
     }
 
+
     // Insert a new node with value `val` after the first occurrence of `after`
     public void insert(int after, int val) {
         Node p = find(after);     // Find the node with value `after`
@@ -78,6 +83,7 @@ public class DoublyLinkedList {
             node.next.prev = node; // Update the next node's prev to point to the new node
         }
     }
+
 
     // Inner Node class representing each element in the list
     private class Node {
@@ -95,4 +101,5 @@ public class DoublyLinkedList {
             this.prev = prev;     // Initialize the previous pointer
         }
     }
+
 }
