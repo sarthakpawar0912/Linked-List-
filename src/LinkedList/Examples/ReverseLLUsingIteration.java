@@ -173,9 +173,11 @@ public class ReverseLLUsingIteration {
         reverser.printList(reversed4);
         // Print the reversed list: (empty)
     }
+
 }
 
-/*Let’s create a complete solution for reversing a singly-linked list using an iterative approach, addressing the LeetCode #206 - Reverse Linked List problem (https://leetcode.com/problems/reverse-linked-list/). Your provided code has a good start but contains several issues:
+/*
+Let’s create a complete solution for reversing a singly-linked list using an iterative approach, addressing the LeetCode #206 - Reverse Linked List problem (https://leetcode.com/problems/reverse-linked-list/). Your provided code has a good start but contains several issues:
 
 It assumes class-level fields head, size, and a return type of void, which doesn’t align with the standard problem requirement (returning the new ListNode head).
 The method name reverse() lacks a parameter, and head is not defined.
@@ -476,4 +478,6 @@ next = null.
 3.next = 2 (was null).
 prev = 3, current = null.
 List: 3 -> 2 -> 1 -> null.
-Return prev = 3 (head of 3 -> 2 -> 1).*/
+Return prev = 3 (head of 3 -> 2 -> 1).
+
+*/
