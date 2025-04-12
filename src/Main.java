@@ -68,8 +68,6 @@ public class Main {
         list1.display();
 
 
-
-
         // Create a new circular linked list instance
         CircularLinkedList list2 = new CircularLinkedList();
 
