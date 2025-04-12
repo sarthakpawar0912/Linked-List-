@@ -70,7 +70,6 @@ public class Main {
 
 
 
-
         // Create a new circular linked list instance
         CircularLinkedList list2 = new CircularLinkedList();
 
