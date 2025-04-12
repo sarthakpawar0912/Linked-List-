@@ -128,6 +128,7 @@ public class PalindromeLL {
         }
     }
 
+
     // Helper method to print the linked list
     private void printList(ListNode head) {
         // Start from the head of the list
@@ -146,6 +147,7 @@ public class PalindromeLL {
         // Print newline at the end
         System.out.println();
     }
+
 
     // Main function to test the isPalindrome method
     public static void main(String[] args) {
@@ -249,6 +251,7 @@ public class PalindromeLL {
         checker.printList(head4);
         // Print the restored list: (empty)
     }
+
 }
 
 /*
