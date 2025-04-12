@@ -1,6 +1,7 @@
 package LinkedList.Examples;
 
 public class CycleQuestion {
+
     // Inner class representing a node in the singly linked list (for standalone use)
     class ListNode {
         int val;              // Value stored in the node
@@ -12,6 +13,7 @@ public class CycleQuestion {
             next = null;      // Next is null by default
         }
     }
+
 
     // Detect if the linked list has a cycle (LeetCode Problem 141)
     public boolean hasCycle(ListNode head) {
@@ -34,6 +36,7 @@ public class CycleQuestion {
         // If fast reaches the end (null), no cycle exists
         return false;              // Return false indicating no cycle
     }
+
 
     // Find the length of the cycle in the linked list, if one exists
     public int lengthCycle(ListNode head) {
@@ -63,14 +66,6 @@ public class CycleQuestion {
         // If fast reaches the end (null), no cycle exists
         return 0;                     // Return 0 indicating no cycle
     }
-
-
-
-
-
-
-
-
 
 
     // Main method to test the functionality (optional for LeetCode)
@@ -103,4 +98,5 @@ public class CycleQuestion {
         int cycleLength2 = cycle.lengthCycle(headNoCycle);
         System.out.println("Cycle Length (No Cycle List): " + cycleLength2); // Output: Cycle Length: 0
     }
+
 }
