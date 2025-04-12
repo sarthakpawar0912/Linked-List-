@@ -4,7 +4,9 @@ package LinkedList.Examples;
 public class RotateRightLL {
 
     // Rotate the linked list to the right by k places
+
     public ListNode rotateRight(ListNode head, int k) {
+
         // Step 1: Handle edge cases
         // If list is empty, has one node, or k is 0, no rotation needed
         if (head == null || head.next == null || k <= 0) {
@@ -52,6 +54,7 @@ public class RotateRightLL {
         // Step 8: Return the new head of the rotated list
         return head;
     }
+
 
     // Definition of ListNode class
     class ListNode {
