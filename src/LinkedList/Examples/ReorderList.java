@@ -83,6 +83,7 @@ public class ReorderList {
     }
 
 
+
     // Reverse the linked list iteratively
     public ListNode reverseList(ListNode head) {
         // Initialize previous node as null (will become the new tail)
@@ -117,6 +118,7 @@ public class ReorderList {
         // Return the head of the reversed list (original tail)
     }
 
+
     // Definition of ListNode class
     class ListNode {
         int val;          // Value stored in the node
@@ -133,6 +135,7 @@ public class ReorderList {
             next = null;  // Initialize next pointer to null
         }
     }
+
 
     // Helper method to print the linked list
     private void printList(ListNode head) {
@@ -153,6 +156,7 @@ public class ReorderList {
         System.out.println();
     }
 
+
     // Main function to test the reorderList method
     public static void main(String[] args) {
         // Create an instance of ReorderList
@@ -169,6 +173,7 @@ public class ReorderList {
         head1.next.next.next = reorderer.new ListNode(4);
         // Add node with value 4
         // List: 1 -> 2 -> 3 -> 4
+
 
         // Test Case 2: List: 1 -> 2 -> 3 -> 4 -> 5
         ListNode head2 = reorderer.new ListNode(1);
