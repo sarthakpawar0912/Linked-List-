@@ -3,6 +3,7 @@ package LinkedList.Examples;
 // Problem: https://leetcode.com/problems/middle-of-the-linked-list/
 public class MiddleofLL {
 
+
     class ListNode {
         int val;              // Value stored in the node
         ListNode next;        // Reference to the next node
@@ -13,6 +14,7 @@ public class MiddleofLL {
             next = null;      // Next is null by default
         }
     }
+
 
     public ListNode middleNode(ListNode head) {
         ListNode s = head;  // Slow pointer
@@ -26,6 +28,7 @@ public class MiddleofLL {
         return s;  // Slow pointer will be at the middle
     }
 
+
     // Helper method to print the list from a given node
     private void printList(ListNode node) {
         ListNode current = node;
@@ -35,6 +38,7 @@ public class MiddleofLL {
         }
         System.out.println();
     }
+
 
     public static void main(String[] args) {
         MiddleofLL middleFinder = new MiddleofLL();
@@ -71,4 +75,5 @@ public class MiddleofLL {
         System.out.print("Middle node onwards: ");
         middleFinder.printList(middle3);
     }
+
 }
