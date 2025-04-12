@@ -1,6 +1,7 @@
 package LinkedList.Types;
 
 public class CircularLinkedList {
+
     private Node head;  // Reference to the first node in the list
     private Node tail;  // Reference to the last node in the list
 
@@ -9,6 +10,7 @@ public class CircularLinkedList {
         this.head = null;  // Initially, the head is null (empty list)
         this.tail = null;  // Initially, the tail is null (empty list)
     }
+
 
     // Insert a new node with value `val` at the end of the list
     public void insert(int val) {
@@ -24,6 +26,7 @@ public class CircularLinkedList {
         tail = node;                // Update the tail to the new node
     }
 
+
     // Display the circular linked list
     public void display() {
         Node node = head;           // Start from the head
@@ -37,6 +40,7 @@ public class CircularLinkedList {
             System.out.println("List is empty");     // Handle empty list case
         }
     }
+
 
     // Inner Node class representing each element in the list
     private class Node {
