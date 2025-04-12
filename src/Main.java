@@ -7,17 +7,17 @@ public class Main {
      // Create a new singly linked list instance
            SignlyLinkedList list = new SignlyLinkedList();
 
-                            // Insert nodes at the beginning
+          // Insert nodes at the beginning
            list.insertFirst(3);   // List: 3
-         list.insertFirst(5);   // List: 5 -> 3
-                            list.insertFirst(7);   // List: 7 -> 5 -> 3
-                            list.insertFirst(12);  // List: 12 -> 7 -> 5 -> 3
-                            list.insertFirst(56);  // List: 56 -> 12 -> 7 -> 5 -> 3
-                            list.insertFirst(89);  // List: 89 -> 56 -> 12 -> 7 -> 5 -> 3
-                            list.insertFirst(45);  // List: 45 -> 89 -> 56 -> 12 -> 7 -> 5 -> 3
+           list.insertFirst(5);   // List: 5 -> 3
+           list.insertFirst(7);   // List: 7 -> 5 -> 3
+           list.insertFirst(12);  // List: 12 -> 7 -> 5 -> 3
+           list.insertFirst(56);  // List: 56 -> 12 -> 7 -> 5 -> 3
+           list.insertFirst(89);  // List: 89 -> 56 -> 12 -> 7 -> 5 -> 3
+           list.insertFirst(45);  // List: 45 -> 89 -> 56 -> 12 -> 7 -> 5 -> 3
 
-                            // Insert a node at the end
-                            list.insertLast(99);   // List: 45 -> 89 -> 56 -> 12 -> 7 -> 5 -> 3 -> 99
+           // Insert a node at the end
+           list.insertLast(99);   // List: 45 -> 89 -> 56 -> 12 -> 7 -> 5 -> 3 -> 99
 
                             // Insert a node at index 3 (0-based indexing)
                             list.insert(100, 3);   // List: 45 -> 89 -> 56 -> 100 -> 12 -> 7 -> 5 -> 3 -> 99
