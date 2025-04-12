@@ -265,6 +265,7 @@ public class ReorderList {
 
 
 /*
+
 How It Works:
 Edge Case: If empty or single node, return.
 Step 1: Find Middle: Use middleNode to find the second half’s start.
@@ -285,4 +286,5 @@ firstHalf = 1, secondHalf = 4.
 4.next = 2, secondHalf = 3.
 2.next = 3, firstHalf = null, secondHalf = null.
 Result: 1 -> 4 -> 2 -> 3.
+
  */
