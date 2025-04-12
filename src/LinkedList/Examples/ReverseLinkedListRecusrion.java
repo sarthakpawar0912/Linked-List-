@@ -3,6 +3,7 @@ package LinkedList.Examples;
 // Problem: https://leetcode.com/problems/reverse-linked-list/
 public class ReverseLinkedListRecusrion {
 
+
     // Reverse the linked list using recursion
     public ListNode reverseList(ListNode head) {
         // Base case: if head is null (empty list) or has one node
@@ -28,6 +29,7 @@ public class ReverseLinkedListRecusrion {
         // 'newHead' remains the head of the fully reversed list
     }
 
+
     // Definition of ListNode class
     class ListNode {
         int val;          // Value stored in the node
@@ -44,6 +46,7 @@ public class ReverseLinkedListRecusrion {
             next = null;  // Initialize next pointer to null
         }
     }
+
 
     // Helper method to print the linked list
     private void printList(ListNode head) {
@@ -63,6 +66,7 @@ public class ReverseLinkedListRecusrion {
         // Print newline at the end
         System.out.println();
     }
+
 
     // Main function to test the reverseList method
     public static void main(String[] args) {
@@ -156,4 +160,5 @@ public class ReverseLinkedListRecusrion {
         reverser.printList(reversed4);
         // Print the reversed list: (empty)
     }
+
 }
