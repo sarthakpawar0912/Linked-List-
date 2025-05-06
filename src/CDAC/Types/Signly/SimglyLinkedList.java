@@ -35,7 +35,9 @@ import java.util.Scanner;
         System.out.println("Displaying the list:");
 
         if (head == null) {
+
             System.out.println("List is empty");
+
         } else {
             Node trav = head;
             while (trav != null) {
