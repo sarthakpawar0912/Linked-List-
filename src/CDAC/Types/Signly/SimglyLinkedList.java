@@ -78,6 +78,7 @@ import java.util.Scanner;
 
         //head should point to new node
         head=newNode;
+
     }
 
     void addAtPos(int val, int pos) {
