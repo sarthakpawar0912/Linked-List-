@@ -33,6 +33,7 @@ import java.util.Scanner;
     void display(){
 
         System.out.println("Displaying the list:");
+
         if (head == null) {
             System.out.println("List is empty");
         } else {
