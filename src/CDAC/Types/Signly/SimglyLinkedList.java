@@ -160,6 +160,7 @@ import java.util.Scanner;
         for (int i = 1; i < pos - 1 && trav != null; i++) {
             trav = trav.next;
         }
+
         // Check for invalid position
         if (trav == null || trav.next == null) {
             throw new RuntimeException("Invalid position");
