@@ -30,7 +30,6 @@ import java.util.Scanner;
         this.head = null;
     }
 
-
     void display(){
         System.out.println("Displaying the list:");
         if (head == null) {
