@@ -238,7 +238,6 @@ public class SimglyLinkedList {
                     list.delAll();
                     break;
             }
-
         }while (choice!=0);
     }
 }
