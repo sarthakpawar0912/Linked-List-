@@ -20,6 +20,7 @@ import java.util.Scanner;
            data=val;
            next=null;
         }
+
     }
 
     //list class fields
