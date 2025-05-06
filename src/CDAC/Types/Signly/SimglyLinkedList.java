@@ -172,6 +172,7 @@ import java.util.Scanner;
     }
 
     public void deleteLast() {
+
         // Special case: empty list
         if (head == null) {
             throw new RuntimeException("List is empty");
