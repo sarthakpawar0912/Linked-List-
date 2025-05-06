@@ -276,6 +276,7 @@ public class SimglyLinkedList {
                     break;
 
             }
+
         }while (choice!=0);
     }
 }
