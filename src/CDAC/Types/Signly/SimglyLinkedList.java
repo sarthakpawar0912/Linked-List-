@@ -136,17 +136,19 @@ import java.util.Scanner;
 
 
     public void delAll(){
-        
+
         head=null;
     // all nodes will be garbage collected
     }
 
 
     public void deleteAtPos(int pos) {
+
         // Special case: empty list
         if (head == null) {
             throw new RuntimeException("List is empty");
         }
+
         // Special case: position 1 (delete first)
         if (pos == 1) {
             head = head.next;
