@@ -5,6 +5,7 @@ import java.util.Scanner;
 
      //node is static member class of Singly list
     static class Node{
+
         //Node class fields
         int data;
         Node next;
