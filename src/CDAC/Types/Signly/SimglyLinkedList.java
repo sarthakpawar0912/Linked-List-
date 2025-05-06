@@ -217,6 +217,7 @@ public class SimglyLinkedList {
             choice=sc.nextInt();
 
             switch (choice){
+
                 case 1://Display
                    list.display();
                     break;
