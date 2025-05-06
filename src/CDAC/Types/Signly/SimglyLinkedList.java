@@ -38,7 +38,9 @@ import java.util.Scanner;
 
             System.out.println("List is empty");
 
-        } else {
+        }
+        else {
+
             Node trav = head;
             while (trav != null) {
                 System.out.print(trav.data + " -> ");
