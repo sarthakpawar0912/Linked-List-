@@ -105,6 +105,7 @@ import java.util.Scanner;
 
         // Traverse to pos-1 or until end of list
         Node trav = head;
+
         for (int i = 1; i < pos - 1 && trav != null; i++) {
             trav = trav.next;
         }
@@ -118,6 +119,7 @@ import java.util.Scanner;
         // Insert new node
         newNode.next = trav.next;
         trav.next = newNode;
+
     }
 
     public void deleteFirst(){
