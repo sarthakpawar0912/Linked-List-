@@ -165,6 +165,7 @@ import java.util.Scanner;
         if (trav == null || trav.next == null) {
             throw new RuntimeException("Invalid position");
         }
+
         // Delete node at pos by skipping it
         trav.next = trav.next.next;
     }
