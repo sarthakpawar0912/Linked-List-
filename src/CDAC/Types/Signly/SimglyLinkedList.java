@@ -183,6 +183,7 @@ import java.util.Scanner;
             head = null;
             return;
         }
+
         // Traverse to second-to-last node
         Node trav = head;
         while (trav.next.next != null) {
