@@ -69,8 +69,10 @@ import java.util.Scanner;
     }
 
     void addFirst(int val) {
+
         //create new node  and init it
         Node newNode=new Node(val);
+
         //new node next should point to head
         newNode.next=head;
         //head should point to new node
