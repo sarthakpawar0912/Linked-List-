@@ -1,7 +1,7 @@
 package CDAC.Types.Signly;
 import java.util.Scanner;
 
-public class SinglyList{
+ class SinglyList{
     //node is static member class of Singly list
     static class Node{
         //Node class fields
