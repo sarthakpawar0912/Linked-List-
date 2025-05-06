@@ -186,9 +186,11 @@ import java.util.Scanner;
 
         // Traverse to second-to-last node
         Node trav = head;
+
         while (trav.next.next != null) {
             trav = trav.next;
         }
+
         // Remove last node
         trav.next = null;
     }
