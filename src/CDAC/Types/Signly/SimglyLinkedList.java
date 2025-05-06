@@ -177,6 +177,7 @@ import java.util.Scanner;
         if (head == null) {
             throw new RuntimeException("List is empty");
         }
+
         // Special case: single node
         if (head.next == null) {
             head = null;
