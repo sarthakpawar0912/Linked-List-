@@ -199,8 +199,8 @@ import java.util.Scanner;
 }
 
 
-
 public class SimglyLinkedList {
+
     public static void main(String[] args) {
         int choice,val,pos;
 
