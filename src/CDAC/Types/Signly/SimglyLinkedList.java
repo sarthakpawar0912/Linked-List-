@@ -274,6 +274,7 @@ public class SimglyLinkedList {
                 case 8://Del All
                     list.delAll();
                     break;
+
             }
         }while (choice!=0);
     }
