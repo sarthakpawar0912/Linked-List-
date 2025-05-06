@@ -64,6 +64,7 @@ import java.util.Scanner;
             }
             trav.next = newNode; // Add new node at the end
         }
+
     }
 
     void addFirst(int val) {
