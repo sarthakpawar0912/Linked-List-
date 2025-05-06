@@ -52,7 +52,6 @@ import java.util.Scanner;
     }
 
 
-
     void  addLast(int val) {
         Node newNode = new Node(val);
         if (head == null) {
