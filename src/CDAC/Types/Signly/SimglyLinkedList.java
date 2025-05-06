@@ -211,8 +211,11 @@ public class SimglyLinkedList {
 
         do{
             System.out.println("\n\n0--->Exit \n1--->Display\n2--->Add First\n3--->Add Last\n4--->Add at a Pos\n5--->Delete First\n6--->Delete Last\n7--->Delete at a Pos \n8--->Delete All");
+
             System.out.println("Enter Your choice:");
+
             choice=sc.nextInt();
+
             switch (choice){
                 case 1://Display
                    list.display();
