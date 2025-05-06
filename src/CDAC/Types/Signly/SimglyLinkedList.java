@@ -47,6 +47,7 @@ import java.util.Scanner;
                 trav = trav.next;
             }
             System.out.println("null");
+
         }
     }
 
