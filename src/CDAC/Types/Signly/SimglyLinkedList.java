@@ -75,6 +75,7 @@ import java.util.Scanner;
 
         //new node next should point to head
         newNode.next=head;
+
         //head should point to new node
         head=newNode;
     }
