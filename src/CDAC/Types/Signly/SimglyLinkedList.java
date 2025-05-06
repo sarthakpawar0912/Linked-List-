@@ -168,6 +168,7 @@ import java.util.Scanner;
 
         // Delete node at pos by skipping it
         trav.next = trav.next.next;
+
     }
 
     public void deleteLast() {
