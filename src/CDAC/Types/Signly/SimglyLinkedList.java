@@ -154,6 +154,7 @@ import java.util.Scanner;
             head = head.next;
             return;
         }
+
         // Validate position and traverse to pos-1
         Node trav = head;
         for (int i = 1; i < pos - 1 && trav != null; i++) {
