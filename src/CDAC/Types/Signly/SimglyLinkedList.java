@@ -136,6 +136,7 @@ import java.util.Scanner;
 
 
     public void delAll(){
+        
         head=null;
     // all nodes will be garbage collected
     }
