@@ -193,6 +193,7 @@ import java.util.Scanner;
 
         // Remove last node
         trav.next = null;
+
     }
 
 }
