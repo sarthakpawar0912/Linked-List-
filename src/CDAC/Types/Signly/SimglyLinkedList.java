@@ -57,7 +57,8 @@ import java.util.Scanner;
         Node newNode = new Node(val);
         if (head == null) {
             head = newNode;
-        } else {
+        }
+        else {
             Node trav = head;
             while (trav.next != null) { // Check if next node exists
                 trav = trav.next;
