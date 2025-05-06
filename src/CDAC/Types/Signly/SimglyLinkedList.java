@@ -123,6 +123,7 @@ import java.util.Scanner;
     }
 
     public void deleteFirst(){
+
         //special 1: iff list is empty ,throw exception
 
         if(head==null){
