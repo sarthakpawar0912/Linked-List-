@@ -112,6 +112,7 @@ class SinglyCircularLinkedList {
     }
 
     public void addAtPos(int val, int pos) {
+
         // Create a new node with the given value
         Node newNode = new Node(val);                     // Initialize new node with data and null next
         // Special case: empty list
