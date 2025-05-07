@@ -51,7 +51,6 @@ import java.util.Scanner;
         }
     }
 
-
     void  addLast(int val) {
 
         Node newNode = new Node(val);
@@ -199,7 +198,7 @@ import java.util.Scanner;
 }
 
 
-public class SimglyLinkedList {
+public class SinglyLinkedList {
 
     public static void main(String[] args) {
 
