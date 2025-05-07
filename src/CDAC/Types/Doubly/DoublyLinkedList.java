@@ -35,52 +35,52 @@ class DoublyList {
     }
 
 
-    void displayForward(){
-
-        System.out.println("Displaying the Forward  list:");
-
-        if (head == null) {
-
-            System.out.println("List is empty");
-
-        }
-        else {
-
-            Node trav = head;
-            while (trav != null) {
-                System.out.print(trav.data + " -> ");
-                trav = trav.next;
+    void displayForward() {
+        // Print header for forward list display
+        System.out.println("Displaying the Forward list:");  // Indicate that the list will be displayed forward
+        // Special case: check if the list is empty
+        if (head == null) {                                  // If head is null, the list has no nodes
+            // Print message for empty list
+            System.out.println("List is empty");              // Inform user that the list is empty
+        } else {
+            // General case: traverse and print nodes forward
+            Node trav = head;                                // Start traversal from the head node
+            while (trav != null) {                           // Continue until the end of the list
+                // Print current node's data
+                System.out.print(trav.data + " -> ");         // Print data followed by arrow for list format
+                // Move to the next node
+                trav = trav.next;                            // Update trav to the next node
             }
-            System.out.println("null");
-
+            // Print null to indicate end of list
+            System.out.println("null");                      // End the list output with null
         }
     }
 
-    void displayReverse(){
-
-        System.out.println("Displaying the Reverse list:");
-
-        if (head == null) {
-
-            System.out.println("List is empty");
-
-        }
-        else {
-
-            Node trav = head;
-            while (trav.next != null) {
-                trav = trav.next;
+    void displayReverse() {
+        // Print header for reverse list display
+        System.out.println("Displaying the Reverse list:");  // Indicate that the list will be displayed in reverse
+        // Special case: check if the list is empty
+        if (head == null) {                                  // If head is null, the list has no nodes
+            // Print message for empty list
+            System.out.println("List is empty");              // Inform user that the list is empty
+        } else {
+            // General case: traverse to last node
+            Node trav = head;                                // Start traversal from the head node
+            while (trav.next != null) {                      // Continue until the last node is reached
+                // Move to the next node
+                trav = trav.next;                            // Update trav to the next node
             }
-
-            while (trav != null) {
-                System.out.print(trav.data + " -> ");
-                trav = trav.prev;
+            // Traverse and print nodes backward
+            while (trav != null) {                           // Continue until the beginning of the list
+                // Print current node's data
+                System.out.print(trav.data + " -> ");         // Print data followed by arrow for list format
+                // Move to the previous node
+                trav = trav.prev;                            // Update trav to the previous node
             }
-            System.out.println("null");
-
+            // Print null to indicate end of list
+            System.out.println("null");                      // End the list output with null
         }
     }
-
 
 
 
