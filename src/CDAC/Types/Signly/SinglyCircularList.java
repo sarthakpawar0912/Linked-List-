@@ -22,6 +22,7 @@ class SinglyCircularLinkedList {
             data = val;      // Initialize data with the provided value
             next = null;     // Initialize next to null
         }
+
     }
 
     // List class Fields
