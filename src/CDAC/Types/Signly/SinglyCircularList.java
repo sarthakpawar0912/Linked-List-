@@ -17,6 +17,7 @@ class SinglyCircularLinkedList {
             next = null;     // Initialize next to null
         }
 
+
         public Node(int val) {
             data = val;      // Initialize data with the provided value
             next = null;     // Initialize next to null
