@@ -133,6 +133,7 @@ class SinglyCircularLinkedList {
             System.out.println("Invalid position: Position must be at least 1"); // Print error message
             return;                                       // Exit the method
         }
+
         // Special case: pos = 1 (add at beginning)
         if (pos == 1) {                                   // If position is 1, add at the start
             Node trav = head;                             // Start traversal from head to find last node
