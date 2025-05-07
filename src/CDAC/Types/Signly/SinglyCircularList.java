@@ -47,6 +47,7 @@ class SinglyCircularLinkedList {
             System.out.println("List is empty");    // Inform user the list has no nodes
             return;                                 // Exit the method
         }
+
         // General case: traverse and print all nodes in the circular list
         Node trav = head;                           // Start traversal from head
         do {
