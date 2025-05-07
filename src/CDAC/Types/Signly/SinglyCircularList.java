@@ -78,6 +78,7 @@ class SinglyCircularLinkedList {
 
         // Link the new node to head to maintain circular structure
         newNode.next = head;          // New node's next points to head
+
         // Link the last node to the new node
         trav.next = newNode;          // Last node's next points to the new node
     }
