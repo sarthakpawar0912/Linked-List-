@@ -10,6 +10,7 @@ class SinglyCircularLinkedList {
         private Object data; // Stores the data value of the node
         private Node next;   // Reference to the next node in the list
 
+
         // Node class methods
         public Node() {
             data = 0;        // Initialize data to 0
