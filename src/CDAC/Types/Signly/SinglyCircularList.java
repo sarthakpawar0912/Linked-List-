@@ -84,6 +84,7 @@ class SinglyCircularLinkedList {
     }
 
     public void addFirst(int val) {
+
         // Create a new node with the given value
         Node newNode = new Node(val);              // Initialize new node with data and null next
         // Special case: if list is empty
