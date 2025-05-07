@@ -127,6 +127,7 @@ class SinglyCircularLinkedList {
             }
             return;                                       // Exit the method
         }
+
         // Validate position (pos must be >= 1)
         if (pos < 1) {                                    // Check if position is invalid (negative or zero)
             System.out.println("Invalid position: Position must be at least 1"); // Print error message
