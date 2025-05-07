@@ -58,7 +58,6 @@ class SinglyCircularLinkedList {
     }
 
 
-
     public void addLast(int val) {
         // Create and initialize a new node with the given value
         Node newNode = new Node(val);
