@@ -1,5 +1,4 @@
 package CDAC.Types.Signly;
-
 import java.util.Scanner;
 
 class SinglyCircularLinkedList {
