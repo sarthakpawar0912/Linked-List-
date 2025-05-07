@@ -206,6 +206,7 @@ class SinglyCircularLinkedList {
             deleteFirst();                                // Call deleteFirst to handle circularity
             return;                                       // Exit the method
         }
+
         // General case: traverse to pos-1
         Node trav = head;                                 // Start traversal from head
         for (int i = 1; i < pos - 1; i++) {               // Traverse to the node at pos-1
