@@ -69,6 +69,7 @@ class SinglyCircularLinkedList {
             newNode.next = newNode;   // Make the new node point to itself to form a circular list
             return;                   // Exit the method
         }
+
         // General case: traverse to the last node (whose next points to head)
         Node trav = head;             // Start traversal from head
         while (trav.next != head) {   // Continue until the last node is found
