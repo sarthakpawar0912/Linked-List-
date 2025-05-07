@@ -106,6 +106,7 @@ class SinglyCircularLinkedList {
 
         // Update the last node to point to the new node
         trav.next = newNode;                       // Last node's next points to new node
+
         // Update head to the new node
         head = newNode;                            // Make the new node the new head
     }
