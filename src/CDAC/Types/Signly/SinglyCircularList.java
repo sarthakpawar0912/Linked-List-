@@ -121,7 +121,8 @@ class SinglyCircularLinkedList {
             if (pos == 1) {                               // If position is 1, add as the only node
                 head = newNode;                           // Set head to the new node
                 newNode.next = newNode;                   // Make new node point to itself to form a circular list
-            } else {                                      // If position is not 1, it’s invalid
+            }
+            else {                                      // If position is not 1, it’s invalid
                 System.out.println("Invalid position: List is empty"); // Print error message
             }
             return;                                       // Exit the method
