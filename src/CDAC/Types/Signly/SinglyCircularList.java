@@ -39,6 +39,7 @@ class SinglyCircularLinkedList {
 
 
     public void display() {
+
         System.out.println("Displaying the list:"); // Print header for list output
         // Special case: if list is empty, print message and return
         if (isEmpty()) {
