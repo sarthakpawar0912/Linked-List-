@@ -215,6 +215,7 @@ class SinglyCircularLinkedList {
                 throw new RuntimeException("Invalid position: Position exceeds list length"); // Throw exception
             }
         }
+
         // Check if next node exists (avoid deleting head in invalid cases)
         if (trav.next == head && pos > 2) {               // If trav is last node and pos is too large
             throw new RuntimeException("Invalid position: Position exceeds list length"); // Throw exception
