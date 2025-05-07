@@ -220,6 +220,7 @@ class SinglyCircularLinkedList {
         if (trav.next == head && pos > 2) {               // If trav is last node and pos is too large
             throw new RuntimeException("Invalid position: Position exceeds list length"); // Throw exception
         }
+
         // Delete node at pos by skipping it
         trav.next = trav.next.next;                       // Update trav's next to skip the node at pos
     }
