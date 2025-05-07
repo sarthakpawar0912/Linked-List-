@@ -62,6 +62,7 @@ class SinglyCircularLinkedList {
 
         // Create and initialize a new node with the given value
         Node newNode = new Node(val);
+
         // Special case: if list is empty
         if (head == null) {
             head = newNode;           // Set head to the new node
