@@ -163,6 +163,7 @@ class SinglyCircularLinkedList {
 
 
     public void deleteFirst() {
+
         // Special case: empty list
         if (head == null) {                               // Check if the list has no nodes
             throw new RuntimeException("List is empty");   // Throw exception for empty list
