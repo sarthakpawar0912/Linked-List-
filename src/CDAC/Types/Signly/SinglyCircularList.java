@@ -145,6 +145,7 @@ class SinglyCircularLinkedList {
             head = newNode;                               // Update head to the new node
             return;                                       // Exit the method
         }
+
         // General case: traverse to pos-1
         Node trav = head;                                 // Start traversal from head
         for (int i = 1; i < pos - 1; i++) {               // Traverse to the node at pos-1
