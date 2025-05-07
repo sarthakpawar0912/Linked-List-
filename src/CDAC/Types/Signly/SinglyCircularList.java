@@ -174,6 +174,7 @@ class SinglyCircularLinkedList {
             head = null;                                  // Set head to null to empty the list
             return;                                       // Exit the method
         }
+
         // General case: multiple nodes
         Node trav = head;                                 // Start traversal from head
         while (trav.next != head) {                       // Continue until the last node is found
