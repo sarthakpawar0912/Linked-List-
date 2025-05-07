@@ -54,6 +54,7 @@ class SinglyCircularLinkedList {
             System.out.print(trav.data+"->");          // Print current node's data
             trav = trav.next;                       // Move to the next node
         } while (trav != head);                     // Continue until back at head (circular loop)
+    
     }
 
 
