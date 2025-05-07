@@ -183,6 +183,7 @@ class SinglyCircularLinkedList {
 
         // Update head to the next node
         head = head.next;                                 // Skip the first node by moving head
+
         // Update last node's next to new head
         trav.next = head;                                 // Last node's next points to new head
     }
