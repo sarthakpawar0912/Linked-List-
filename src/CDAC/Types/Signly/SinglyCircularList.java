@@ -5,6 +5,7 @@ class SinglyCircularLinkedList {
 
     // Node class
     static class Node {
+
         // Node class fields
         private Object data; // Stores the data value of the node
         private Node next;   // Reference to the next node in the list
