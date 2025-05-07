@@ -180,6 +180,7 @@ class SinglyCircularLinkedList {
         while (trav.next != head) {                       // Continue until the last node is found
             trav = trav.next;                             // Move to the next node
         }
+
         // Update head to the next node
         head = head.next;                                 // Skip the first node by moving head
         // Update last node's next to new head
