@@ -75,6 +75,7 @@ class SinglyCircularLinkedList {
         while (trav.next != head) {   // Continue until the last node is found
             trav = trav.next;         // Move to the next node
         }
+
         // Link the new node to head to maintain circular structure
         newNode.next = head;          // New node's next points to head
         // Link the last node to the new node
