@@ -7,7 +7,7 @@ class DoublyList {
     static class Node {
 
         int data;
-      Node next;
+        Node next;
         Node prev;
 
         public Node() {
