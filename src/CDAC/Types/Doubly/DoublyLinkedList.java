@@ -2,7 +2,6 @@ package CDAC.Types.Doubly;
 
 import java.util.Scanner;
 
-
 class DoublyList {
 
     //node is static member class of Doubly  list
