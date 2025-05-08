@@ -50,6 +50,7 @@ class DoublyList {
 
             // General case: traverse and print nodes forward
             Node trav = head;                                // Start traversal from the head node
+
             while (trav != null) {                           // Continue until the end of the list
                 // Print current node's data
                 System.out.print(trav.data + " -> ");         // Print data followed by arrow for list format
