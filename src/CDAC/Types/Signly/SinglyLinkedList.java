@@ -133,13 +133,11 @@ import java.util.Scanner;
         head=head.next;
     }
 
-
     public void delAll(){
 
         head=null;
     // all nodes will be garbage collected
     }
-
 
     public void deleteAtPos(int pos) {
 
