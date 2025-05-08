@@ -27,6 +27,7 @@ class DoublyList {
     //list class fields
     private Node head;
 
+
     //list class methods
     public DoublyList(){
         head=null;
