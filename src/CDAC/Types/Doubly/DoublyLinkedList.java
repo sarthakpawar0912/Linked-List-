@@ -126,6 +126,7 @@ class DoublyList {
         while (trav.next != null) {                       // Continue until the last node is reached
             trav = trav.next;                             // Move to the next node
         }
+
         // Link the new node to the last node
         trav.next = newNode;                              // Set last node's next to the new node
         // Link the last node to the new node as its previous
