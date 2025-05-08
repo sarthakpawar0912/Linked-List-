@@ -45,6 +45,7 @@ class DoublyList {
 
             // Print message for empty list
             System.out.println("List is empty");              // Inform user that the list is empty
+
         } else {
 
             // General case: traverse and print nodes forward
