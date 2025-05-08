@@ -30,7 +30,9 @@ class DoublyList {
 
     //list class methods
     public DoublyList(){
+
         head=null;
+
     }
 
     void displayForward() {
