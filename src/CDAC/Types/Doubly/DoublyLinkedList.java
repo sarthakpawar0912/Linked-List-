@@ -111,6 +111,7 @@ class DoublyList {
 
         // Create a new node with the given value
         Node newNode = new Node(val);                     // Initialize new node with data, null next, and null prev
+
         // Special case: empty list
         if (head == null) {                               // Check if the list has no nodes
             head = newNode;                               // Set head to the new node
