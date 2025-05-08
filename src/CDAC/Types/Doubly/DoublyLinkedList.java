@@ -118,6 +118,7 @@ class DoublyList {
             head = newNode;                               // Set head to the new node
             return;                                       // Exit the method
         }
+
         // General case: traverse to the last node
         Node trav = head;                                 // Start traversal from the head node
         while (trav.next != null) {                       // Continue until the last node is reached
