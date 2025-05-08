@@ -100,6 +100,7 @@ class DoublyList {
                 trav = trav.prev;
                 // Update trav to the previous node
             }
+
             // Print null to indicate end of list
             System.out.println("null");                      // End the list output with null
         }
