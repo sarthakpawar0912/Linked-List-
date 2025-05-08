@@ -46,6 +46,7 @@ class DoublyList {
             // Print message for empty list
             System.out.println("List is empty");              // Inform user that the list is empty
         } else {
+
             // General case: traverse and print nodes forward
             Node trav = head;                                // Start traversal from the head node
             while (trav != null) {                           // Continue until the end of the list
