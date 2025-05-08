@@ -39,6 +39,7 @@ class DoublyList {
 
         // Print header for forward list display
         System.out.println("Displaying the Forward list:");  // Indicate that the list will be displayed forward
+
         // Special case: check if the list is empty
         if (head == null) {                                  // If head is null, the list has no nodes
             // Print message for empty list
