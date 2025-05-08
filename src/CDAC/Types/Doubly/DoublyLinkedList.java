@@ -1,5 +1,4 @@
 package CDAC.Types.Doubly;
-
 import java.util.Scanner;
 
 class DoublyList {
