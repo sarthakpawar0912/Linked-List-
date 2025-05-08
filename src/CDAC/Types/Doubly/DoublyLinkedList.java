@@ -92,6 +92,7 @@ class DoublyList {
 
             // Traverse and print nodes backward
             while (trav != null) {                           // Continue until the beginning of the list
+
                 // Print current node's data
                 System.out.print(trav.data + " -> ");         // Print data followed by arrow for list format
                 // Move to the previous node
