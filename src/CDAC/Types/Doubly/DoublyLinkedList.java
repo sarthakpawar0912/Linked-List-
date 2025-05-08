@@ -89,6 +89,7 @@ class DoublyList {
                 trav = trav.next;
                 // Update trav to the next node
             }
+
             // Traverse and print nodes backward
             while (trav != null) {                           // Continue until the beginning of the list
                 // Print current node's data
