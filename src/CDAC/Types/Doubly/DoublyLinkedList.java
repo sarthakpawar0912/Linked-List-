@@ -86,7 +86,8 @@ class DoublyList {
             while (trav.next != null) {                      // Continue until the last node is reached
 
                 // Move to the next node
-                trav = trav.next;                            // Update trav to the next node
+                trav = trav.next;
+                // Update trav to the next node
             }
             // Traverse and print nodes backward
             while (trav != null) {                           // Continue until the beginning of the list
