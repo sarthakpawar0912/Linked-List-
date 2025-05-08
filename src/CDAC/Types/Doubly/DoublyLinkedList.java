@@ -42,6 +42,7 @@ class DoublyList {
 
         // Special case: check if the list is empty
         if (head == null) {                                  // If head is null, the list has no nodes
+
             // Print message for empty list
             System.out.println("List is empty");              // Inform user that the list is empty
         } else {
