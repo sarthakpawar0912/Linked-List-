@@ -55,6 +55,7 @@ class DoublyList {
 
                 // Print current node's data
                 System.out.print(trav.data + " -> ");         // Print data followed by arrow for list format
+
                 // Move to the next node
                 trav = trav.next;                            // Update trav to the next node
             }
