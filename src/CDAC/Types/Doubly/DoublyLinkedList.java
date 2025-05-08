@@ -5,7 +5,6 @@ class DoublyList {
 
     //node is static member class of Doubly  list
     static class Node {
-
         int data;
         Node next;
         Node prev;
