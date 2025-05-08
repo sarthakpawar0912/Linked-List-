@@ -102,7 +102,8 @@ class DoublyList {
             }
 
             // Print null to indicate end of list
-            System.out.println("null");                      // End the list output with null
+            System.out.println("null");
+            // End the list output with null
         }
     }
 
