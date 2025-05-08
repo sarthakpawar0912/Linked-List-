@@ -129,6 +129,7 @@ class DoublyList {
 
         // Link the new node to the last node
         trav.next = newNode;
+
         // Set last node's next to the new node
         // Link the last node to the new node as its previous
         newNode.prev = trav;                              // Set new node's prev to the last node
