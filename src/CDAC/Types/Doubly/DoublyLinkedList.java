@@ -84,6 +84,7 @@ class DoublyList {
             Node trav = head;                                // Start traversal from the head node
 
             while (trav.next != null) {                      // Continue until the last node is reached
+
                 // Move to the next node
                 trav = trav.next;                            // Update trav to the next node
             }
