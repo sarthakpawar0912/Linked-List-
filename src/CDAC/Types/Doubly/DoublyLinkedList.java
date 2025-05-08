@@ -23,6 +23,7 @@ class DoublyList {
         }
     }
 
+
     //list class fields
     private Node head;
 
