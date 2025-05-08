@@ -68,6 +68,7 @@ class DoublyList {
     }
 
     void displayReverse() {
+
         // Print header for reverse list display
         System.out.println("Displaying the Reverse list:");  // Indicate that the list will be displayed in reverse
         // Special case: check if the list is empty
