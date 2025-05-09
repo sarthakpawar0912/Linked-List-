@@ -145,6 +145,7 @@ class DoublyList {
             head = newNode;                               // Set head to the new node
             return;                                       // Exit the method
         }
+
         // General case: non-empty list
         newNode.next = head;                              // Link new node's next to current head
         newNode.prev = null;                              // Set new node's prev to null (new head has no previous)
