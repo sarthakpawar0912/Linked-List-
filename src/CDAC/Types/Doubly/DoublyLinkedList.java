@@ -248,6 +248,7 @@ class DoublyList {
         while (trav.next.next != null) {                  // Traverse to the second-to-last node
             trav = trav.next;                             // Move to the next node
         }
+
         trav.next = null;                                 // Remove last node by setting next to null
         // Note: prev of last node is already handled (trav is the new last node)
     }
