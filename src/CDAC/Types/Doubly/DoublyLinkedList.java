@@ -224,7 +224,8 @@ class DoublyList {
         }
 
         // General case: multiple nodes
-        head = head.next;                                 // Move head to the next node
+        head = head.next;
+        // Move head to the next node
         head.prev = null;                                 // Set new head's prev to null
     }
 
