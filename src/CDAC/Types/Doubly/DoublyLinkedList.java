@@ -283,6 +283,7 @@ class DoublyList {
         if (trav.next == null) {                          // If trav is last node or beyond, pos is invalid
             throw new RuntimeException("Invalid position: Position exceeds list length"); // Throw exception
         }
+
         // Delete node at pos
         Node temp = trav.next;                            // Store node to delete
         trav.next = temp.next;                            // Link trav to node after temp
