@@ -287,7 +287,8 @@ class DoublyList {
         // Delete node at pos
         Node temp = trav.next;
         // Store node to delete
-        trav.next = temp.next;                            // Link trav to node after temp
+        trav.next = temp.next;
+        // Link trav to node after temp
         if (temp.next != null) {                          // If there’s a node after temp
             temp.next.prev = trav;                        // Update its prev to trav
         }
