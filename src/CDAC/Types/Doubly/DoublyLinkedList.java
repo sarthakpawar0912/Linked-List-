@@ -193,6 +193,7 @@ class DoublyList {
         for (; i < pos - 1 && trav.next != null; i++) {   // Traverse to node at pos-1 or end of list
             trav = trav.next;                             // Move to the next node
         }
+
         // Check if position is invalid (beyond list length)
         if (trav.next == null && i < pos - 1) {           // If traversal ended early, pos is too large
             throw new RuntimeException("Invalid position: Position exceeds list length"); // Throw exception
