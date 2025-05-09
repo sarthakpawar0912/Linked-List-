@@ -198,6 +198,7 @@ class DoublyList {
         if (trav.next == null && i < pos - 1) {           // If traversal ended early, pos is too large
             throw new RuntimeException("Invalid position: Position exceeds list length"); // Throw exception
         }
+
         // Insert new node after trav
         newNode.next = trav.next;                         // Link new node's next to trav's next
         newNode.prev = trav;                              // Link new node's prev to trav
