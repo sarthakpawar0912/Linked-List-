@@ -184,6 +184,7 @@ class DoublyList {
             addFirst(val);                                // Call addFirst to handle insertion
             return;                                       // Exit the method
         }
+
         // General case: traverse to pos-1
         Node trav = head;                                 // Start traversal from head
         int i = 1;                                        // Initialize loop counter
