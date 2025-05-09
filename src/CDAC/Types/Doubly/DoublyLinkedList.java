@@ -246,6 +246,7 @@ class DoublyList {
         Node trav = head;
         // Start traversal from head
         while (trav.next.next != null) {                  // Traverse to the second-to-last node
+
             trav = trav.next;                             // Move to the next node
         }
 
