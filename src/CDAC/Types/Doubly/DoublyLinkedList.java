@@ -271,6 +271,7 @@ class DoublyList {
             deleteFirst();                                // Call deleteFirst to handle deletion
             return;                                       // Exit the method
         }
+
         // General case: traverse to pos-1
         Node trav = head;                                 // Start traversal from head
         for (int i = 1; i < pos - 1 && trav.next != null; i++) { // Traverse to node at pos-1 or end
