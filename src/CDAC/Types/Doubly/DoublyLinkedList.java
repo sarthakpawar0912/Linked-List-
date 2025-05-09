@@ -216,6 +216,7 @@ class DoublyList {
         if (head == null) {                               // Check if the list has no nodes
             throw new RuntimeException("List is empty");   // Throw exception for empty list
         }
+
         // Special case: single node
         if (head.next == null) {                          // Check if the list has only one node
             head = null;                                  // Set head to null to empty the list
