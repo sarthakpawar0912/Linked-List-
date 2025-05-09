@@ -241,6 +241,7 @@ class DoublyList {
             head = null;                                  // Set head to null to empty the list
             return;                                       // Exit the method
         }
+
         // General case: multiple nodes
         Node trav = head;                                 // Start traversal from head
         while (trav.next.next != null) {                  // Traverse to the second-to-last node
