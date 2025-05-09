@@ -158,6 +158,7 @@ class DoublyList {
     }
 
     void addAtPos(int val, int pos) {
+
         // Create a new node with the given value
         Node newNode = new Node(val);                     // Initialize new node with data, null next, and null prev
         // Special case: empty list
