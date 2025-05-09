@@ -265,6 +265,7 @@ class DoublyList {
         if (pos < 1) {                                    // Check if position is invalid (negative or zero)
             throw new RuntimeException("Invalid position: Position must be at least 1"); // Throw exception
         }
+
         // Special case: position 1
         if (pos == 1) {                                   // If position is 1, delete first node
             deleteFirst();                                // Call deleteFirst to handle deletion
