@@ -178,6 +178,7 @@ class DoublyList {
         if (pos < 1) {                                    // Check if position is invalid (negative or zero)
             throw new RuntimeException("Invalid position: Position must be at least 1"); // Throw exception
         }
+
         // Special case: pos = 1 (add at beginning)
         if (pos == 1) {                                   // If position is 1, add at the start
             addFirst(val);                                // Call addFirst to handle insertion
