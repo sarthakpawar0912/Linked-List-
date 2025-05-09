@@ -230,6 +230,7 @@ class DoublyList {
     }
 
     public void deleteLast() {
+
         // Special case: empty list
         if (head == null) {                               // Check if the list has no nodes
             throw new RuntimeException("List is empty");   // Throw exception for empty list
