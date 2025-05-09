@@ -201,6 +201,7 @@ class DoublyList {
 
         // Insert new node after trav
         newNode.next = trav.next;                         // Link new node's next to trav's next
+
         newNode.prev = trav;                              // Link new node's prev to trav
         if (trav.next != null) {                          // If there’s a node after trav
             trav.next.prev = newNode;                     // Link next node's prev to new node
