@@ -298,7 +298,8 @@ class DoublyList {
     public void deleteAll() {
 
         // Clear the list
-        head = null;                                      // Set head to null to make all nodes unreachable
+        head = null;
+        // Set head to null to make all nodes unreachable
         // All nodes will be garbage-collected by Java
     }
 
