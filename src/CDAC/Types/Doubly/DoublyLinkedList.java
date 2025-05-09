@@ -222,6 +222,7 @@ class DoublyList {
             head = null;                                  // Set head to null to empty the list
             return;                                       // Exit the method
         }
+
         // General case: multiple nodes
         head = head.next;                                 // Move head to the next node
         head.prev = null;                                 // Set new head's prev to null
