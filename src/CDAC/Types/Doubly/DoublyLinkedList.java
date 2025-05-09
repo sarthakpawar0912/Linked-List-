@@ -307,6 +307,7 @@ class DoublyList {
 
 public class DoublyLinkedList {
     public static void main(String[] args) {
+
         // Declare variables for user input
         int choice, val, pos;                              // Store menu choice, value, and position
         // Create a new doubly linked list
