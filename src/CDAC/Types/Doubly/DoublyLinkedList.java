@@ -151,7 +151,8 @@ class DoublyList {
 
         newNode.prev = null;                              // Set new node's prev to null (new head has no previous)
 
-        head.prev = newNode;                              // Link current head's prev to new node
+        head.prev = newNode;
+        // Link current head's prev to new node
         head = newNode;                                   // Update head to the new node
     }
 
