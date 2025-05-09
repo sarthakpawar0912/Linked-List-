@@ -260,6 +260,7 @@ class DoublyList {
         if (head == null) {                               // Check if the list has no nodes
             throw new RuntimeException("List is empty");   // Throw exception for empty list
         }
+
         // Validate position
         if (pos < 1) {                                    // Check if position is invalid (negative or zero)
             throw new RuntimeException("Invalid position: Position must be at least 1"); // Throw exception
