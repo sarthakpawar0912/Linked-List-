@@ -164,6 +164,7 @@ class DoublyList {
 
         // Special case: empty list
         if (head == null) {                               // Check if the list has no nodes
+
             if (pos == 1) {                               // If position is 1, add as the only node
                 head = newNode;                           // Set head to the new node
                 return;                                   // Exit the method
