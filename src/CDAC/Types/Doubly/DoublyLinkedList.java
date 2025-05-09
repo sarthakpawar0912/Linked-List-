@@ -168,7 +168,8 @@ class DoublyList {
             if (pos == 1) {                               // If position is 1, add as the only node
                 head = newNode;                           // Set head to the new node
                 return;                                   // Exit the method
-            } else {                                      // If position is not 1, it’s invalid
+            }
+            else {                                      // If position is not 1, it’s invalid
                 throw new RuntimeException("Invalid position: List is empty"); // Throw exception
             }
         }
