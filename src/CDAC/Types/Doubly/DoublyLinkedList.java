@@ -153,7 +153,8 @@ class DoublyList {
 
         head.prev = newNode;
         // Link current head's prev to new node
-        head = newNode;                                   // Update head to the new node
+        head = newNode;
+        // Update head to the new node
     }
 
     void addAtPos(int val, int pos) {
