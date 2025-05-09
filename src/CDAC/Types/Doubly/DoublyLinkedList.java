@@ -173,6 +173,7 @@ class DoublyList {
                 throw new RuntimeException("Invalid position: List is empty"); // Throw exception
             }
         }
+
         // Validate position (pos must be >= 1)
         if (pos < 1) {                                    // Check if position is invalid (negative or zero)
             throw new RuntimeException("Invalid position: Position must be at least 1"); // Throw exception
