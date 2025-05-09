@@ -273,7 +273,8 @@ class DoublyList {
         }
 
         // General case: traverse to pos-1
-        Node trav = head;                                 // Start traversal from head
+        Node trav = head;
+        // Start traversal from head
         for (int i = 1; i < pos - 1 && trav.next != null; i++) { // Traverse to node at pos-1 or end
             trav = trav.next;                             // Move to the next node
         }
