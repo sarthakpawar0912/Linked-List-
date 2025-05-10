@@ -15,6 +15,7 @@ public class MergeTwoSortedLL {
 
     // Insert a node at the beginning of the list
     public void insertFirst(int val) {
+
         Node node = new Node(val);
         node.next = head;
         head = node;
