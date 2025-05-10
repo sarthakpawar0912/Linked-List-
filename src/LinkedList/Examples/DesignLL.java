@@ -57,6 +57,7 @@ class MyLinkedList {
 
     // Add a node at a specific index
     public void addAtIndex(int index, int val) {
+
         // If the index is out of bounds, do nothing
         if (index < 0 || index > size) {
             return;
