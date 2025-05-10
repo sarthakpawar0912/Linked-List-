@@ -3,6 +3,7 @@ package LinkedList.Examples;
 //https://leetcode.com/problems/design-linked-list/description/
 
 class ListNode {
+
     int val;  // Value of the node
     ListNode next;  // Reference to the next node
     ListNode(int x) {
