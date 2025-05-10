@@ -6,6 +6,7 @@ class ListNode {
 
     int val;  // Value of the node
     ListNode next;  // Reference to the next node
+
     ListNode(int x) {
         val = x;  // Initialize the value of the node
         next = null;  // Initially, the next node is null
