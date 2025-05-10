@@ -30,6 +30,7 @@ public class MergeTwoSortedLL {
 
     // Insert a node at the end of the list
     public void insertLast(int val) {
+
         if (tail == null) {
             insertFirst(val);
             return;
