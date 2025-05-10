@@ -107,6 +107,7 @@ public class AddTwoNumbers {
         while (current != null) {
 
             System.out.print(current.val);
+
             if (current.next != null) {
                 System.out.print(" -> ");
             }
