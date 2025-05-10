@@ -15,6 +15,7 @@ public class AddTwoNumbers {
 
     // Function to add two numbers represented as reversed linked lists
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
         // Pointers to traverse both lists
         ListNode first = l1;
         ListNode second = l2;
