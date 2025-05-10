@@ -102,6 +102,7 @@ public class AddTwoNumbers {
 
     // Helper function to print the linked list
     public static void printList(ListNode head) {
+
         ListNode current = head;
         while (current != null) {
             System.out.print(current.val);
