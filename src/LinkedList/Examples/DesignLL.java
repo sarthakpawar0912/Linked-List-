@@ -51,6 +51,7 @@ class MyLinkedList {
 
     // Add a node at the tail of the linked list
     public void addAtTail(int val) {
+
         addAtIndex(size, val);  // Add the new node at the end (size-th index)
     }
 
