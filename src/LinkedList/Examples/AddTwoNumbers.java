@@ -16,6 +16,7 @@ public class AddTwoNumbers {
 
         // Pointers to traverse both lists
         ListNode first = l1;
+
         ListNode second = l2;
 
         // Initialize carry to 0 for digit-wise addition
