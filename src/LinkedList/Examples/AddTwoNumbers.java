@@ -36,6 +36,7 @@ public class AddTwoNumbers {
             if (first != null) {
                
                 sum += first.val;
+
                 first = first.next;
             }
 
