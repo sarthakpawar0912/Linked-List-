@@ -45,6 +45,7 @@ class MyLinkedList {
 
     // Add a node at the head of the linked list
     public void addAtHead(int val) {
+
         addAtIndex(0, val);  // Add the new node at index 0 (head)
     }
 
