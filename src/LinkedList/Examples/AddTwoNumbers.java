@@ -71,6 +71,7 @@ public class AddTwoNumbers {
 
     // Main function to test the addTwoNumbers method
     public static void main(String[] args) {
+
         AddTwoNumbers solution = new AddTwoNumbers();
 
         // Create first linked list: 2 -> 4 -> 3 (represents 342)
