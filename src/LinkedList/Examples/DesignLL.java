@@ -73,6 +73,7 @@ class MyLinkedList {
 
         // Create the new node with the given value
         ListNode newNode = new ListNode(val);
+
         newNode.next = curr.next;  // Set the new node's next to the current node's next
         curr.next = newNode;  // Link the current node to the new node
     }
