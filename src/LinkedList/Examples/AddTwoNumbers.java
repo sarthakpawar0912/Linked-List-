@@ -112,6 +112,7 @@ public class AddTwoNumbers {
             if (current.next != null) {
                 System.out.print(" -> ");
             }
+
             current = current.next;
         }
         System.out.println();
