@@ -34,6 +34,7 @@ public class AddTwoNumbers {
 
             // Add value from first list if available
             if (first != null) {
+               
                 sum += first.val;
                 first = first.next;
             }
