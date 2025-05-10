@@ -44,6 +44,7 @@ public class MergeTwoSortedLL {
 
     // Insert a node at a specific index
     public void insert(int val, int index) {
+
         if (index == 0) {
             insertFirst(val);
             return;
