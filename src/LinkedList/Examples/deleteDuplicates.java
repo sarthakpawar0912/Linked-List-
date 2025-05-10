@@ -104,35 +104,19 @@ public class deleteDuplicates {
     }
 
     // Merge two sorted linked lists into a new sorted list
-    public static deleteDuplicates merge(deleteDuplicates first, deleteDuplicates second) {
-        Node f = first.head;                     // Pointer to head of first list
-        Node s = second.head;                    // Pointer to head of second list
-        deleteDuplicates ans = new deleteDuplicates(); // New list to store merged result
+    public ListNode deleteDuplicates(ListNode node) {
+     if (node == null)
+         return node;
 
-        // Merge while both lists have nodes
-        while (f != null && s != null) {
-            if (f.value < s.value) {             // If first list's value is smaller
-                ans.insertLast(f.value);         // Add it to the result
-                f = f.next;                      // Move to next node in first list
-            } else {                             // If second list's value is smaller or equal
-                ans.insertLast(s.value);         // Add it to the result
-                s = s.next;                      // Move to next node in second list
+      ListNode head = node;
+        while (node.next != null) {
+            if (node.val == node.next.val) {
+                node.next = node.next.next;
+            } else {
+                node = node.next;
             }
         }
-
-        // Append remaining nodes from first list, if any
-        while (f != null) {
-            ans.insertLast(f.value);             // Add remaining first list node
-            f = f.next;                          // Move to next node
-        }
-
-        // Append remaining nodes from second list, if any
-        while (s != null) {
-            ans.insertLast(s.value);             // Add remaining second list node
-            s = s.next;                          // Move to next node
-        }
-
-        return ans;                              // Return the merged list
+        return node;
     }
 
 
@@ -165,15 +149,23 @@ public class deleteDuplicates {
         first.insertLast(1);
         first.insertLast(3);
         first.insertLast(4);
+        first.insertLast(4);
+        first.insertLast(4);
 
         first.display();
         second.insertLast(2);
         second.insertLast(4);
+
+        second.insertLast(4);
         second.insertLast(6);
+
         second.insertLast(8);
         second.display();
-        deleteDuplicates ans=deleteDuplicates.merge(first,second);
-        ans.display();
+
+        first.duplicates();
+        first.display();
+        second.duplicates();
+        second.display();
 
     }
 

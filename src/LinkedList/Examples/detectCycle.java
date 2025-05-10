@@ -16,33 +16,33 @@ public class detectCycle {
     }
 
 
-    public int lengthCycle(ListNode head) {
-        // If list is empty or has one node, no cycle possible
-        if (head == null || head.next == null) {
-            return 0;              // Return 0 as there’s no cycle
-        }
-
-        ListNode fast = head;      // Fast pointer starts at head
-        ListNode slow = head;      // Slow pointer starts at head
-
-        // Step 1: Detect cycle using Floyd’s algorithm
-        while (fast != null && fast.next != null) {
-            fast = fast.next.next; // Move fast pointer two steps
-            slow = slow.next;      // Move slow pointer one step
-            if (fast == slow) {    // If fast meets slow, cycle detected
-                // Step 2: Calculate the length of the cycle
-                ListNode temp = slow; // Temporary pointer to traverse cycle
-                int length = 0;       // Counter for cycle length
-                do {
-                    temp = temp.next; // Move temp one step around the cycle
-                    length++;         // Increment length
-                } while (temp != slow); // Continue until temp returns to slow
-                return length;        // Return the cycle length
-            }
-        }
-        // If fast reaches the end (null), no cycle exists
-        return 0;                     // Return 0 indicating no cycle
-    }
+//    public int lengthCycle(ListNode head) {
+//        // If list is empty or has one node, no cycle possible
+//        if (head == null || head.next == null) {
+//            return 0;              // Return 0 as there’s no cycle
+//        }
+//
+//        ListNode fast = head;      // Fast pointer starts at head
+//        ListNode slow = head;      // Slow pointer starts at head
+//
+//        // Step 1: Detect cycle using Floyd’s algorithm
+//        while (fast != null && fast.next != null) {
+//            fast = fast.next.next; // Move fast pointer two steps
+//            slow = slow.next;      // Move slow pointer one step
+//            if (fast == slow) {    // If fast meets slow, cycle detected
+//                // Step 2: Calculate the length of the cycle
+//                ListNode temp = slow; // Temporary pointer to traverse cycle
+//                int length = 0;       // Counter for cycle length
+//                do {
+//                    temp = temp.next; // Move temp one step around the cycle
+//                    length++;         // Increment length
+//                } while (temp != slow); // Continue until temp returns to slow
+//                return length;        // Return the cycle length
+//            }
+//        }
+//        // If fast reaches the end (null), no cycle exists
+//        return 0;                     // Return 0 indicating no cycle
+//    }
 
 
     public ListNode detectCycle(ListNode head) {
@@ -55,7 +55,7 @@ public class detectCycle {
             fast = fast.next.next; // Move fast pointer two steps
             slow = slow.next;      // Move slow pointer one step
             if (fast == slow) {    // If fast meets slow, a cycle exists
-                length = lengthCycle(slow);
+             //   length = lengthCycle(slow);
                 break;// Return true indicating a cycle
             }
         }

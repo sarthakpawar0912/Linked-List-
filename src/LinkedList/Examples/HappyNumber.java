@@ -3,7 +3,6 @@ package LinkedList.Examples;
 // Problem: Detect if a linked list has a cycle
 public class HappyNumber {
 
-
     // Definition for singly-linked list node
     class ListNode {
         int val;          // Value stored in the node

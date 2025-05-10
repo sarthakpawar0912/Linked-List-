@@ -22,7 +22,7 @@ class SinglyList{
         }
     }
 
-    private Node head;
+    public Node head;
 
     public SinglyList() {
         head = null;
@@ -79,15 +79,43 @@ class SinglyList{
 
     }
 
-    public void reverse() {
-        //consider current list as old and new list as empty lis
-        Node oldhead=head;
-        head=null;
+//   public void reverse() {
+//        // Consider current list as old and new list as empty
+//        if (head == null || head.next == head) return; // Empty or single node case
+//
+//        Node oldhead = head;  // Head of the old list
+//        head = null;          // New list starts empty
+//        Node temp = null;     // Temporary node
+//        Node tail = head;     // Track original head (becomes tail after reversal)
+//
+//        // Traverse until back at original head
+//        do {
+//            // Delete first (temp) from old list
+//            temp = oldhead;
+//            oldhead = oldhead.next;
+//            // Add first to new list
+//            temp.next = head;
+//            head = temp;
+//        } while (oldhead != tail); // Repeat until old list is finished
+//
+//        // Restore circular structure
+//        tail.next = head;          // Original head (now tail) points to new head
+//        head = temp;               // Update head to new first node
+//    }
 
+    private Node recReverse(Node h){
+        if(h.next==h) {
+            head=h;
+            return h;};
 
-        //delete first(temp) from  old list
-
-        //add first to new list
+        Node t=recReverse(h.next);
+        t.next=h;
+        h.next=null;
+        return h;
+    }
+    public void recReverse() {
+        if(head!=null){
+        recReverse(head);}
     }
 
 
@@ -105,7 +133,8 @@ public class LinkedListMain {
         list.addLast(50);
 
         list.display();
-        list.reverse();
+       // list.reverse();
+        list.recReverse();
         list.display();
     }
 }
