@@ -29,6 +29,7 @@ public class AddTwoNumbers {
 
         // Traverse both lists
         while (first != null || second != null || carry != 0) {
+
             int sum = carry;
 
             // Add value from first list if available
