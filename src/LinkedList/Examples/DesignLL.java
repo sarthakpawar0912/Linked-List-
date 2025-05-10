@@ -104,6 +104,7 @@ class MyLinkedList {
 public class DesignLL {
 
     public static void main(String[] args) {
+
         // Create a new MyLinkedList object
         MyLinkedList myLinkedList = new MyLinkedList();
 
