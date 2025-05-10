@@ -35,6 +35,7 @@ public class MergeTwoSortedLL {
             insertFirst(val);
             return;
         }
+
         Node node = new Node(val);
         tail.next = node;
         tail = node;
