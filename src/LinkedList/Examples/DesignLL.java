@@ -16,6 +16,7 @@ class ListNode {
 class MyLinkedList {
 
     ListNode head;  // The head of the linked list (dummy node)
+
     int size;  // The size of the linked list
 
     // Constructor to initialize the linked list
