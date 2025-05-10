@@ -24,6 +24,7 @@ public class AddTwoNumbers {
 
         // Head and tail to build the result list
         ListNode head = null;
+
         ListNode tail = null;
 
         // Traverse both lists
