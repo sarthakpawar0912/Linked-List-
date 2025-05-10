@@ -21,6 +21,7 @@ class MyLinkedList {
 
     // Constructor to initialize the linked list
     MyLinkedList() {
+
         head = new ListNode(0);  // Create a dummy head node to simplify the logic
         size = 0;  // Initially, the list is empty
     }
