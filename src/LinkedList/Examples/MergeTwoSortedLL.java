@@ -20,6 +20,7 @@ public class MergeTwoSortedLL {
 
         node.next = head;
         head = node;
+
         if (tail == null) {
             tail = head;
         }
