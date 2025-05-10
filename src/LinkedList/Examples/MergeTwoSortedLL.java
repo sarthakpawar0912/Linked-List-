@@ -1,6 +1,7 @@
 package LinkedList.Examples;
 
 public class MergeTwoSortedLL {
+
     private Node head;    // Points to the first node in the list
     private Node tail;    // Points to the last node in the list
     private int size;     // Tracks the number of nodes in the list
