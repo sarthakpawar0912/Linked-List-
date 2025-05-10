@@ -87,6 +87,7 @@ public class AddTwoNumbers {
         // Print input lists
         System.out.println("First Number:");
         printList(l1);
+
         System.out.println("Second Number:");
         printList(l2);
 
