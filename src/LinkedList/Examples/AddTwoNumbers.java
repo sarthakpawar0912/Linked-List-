@@ -48,6 +48,7 @@ public class AddTwoNumbers {
 
             // Calculate new digit and new carry
             int digit = sum % 10;
+
             carry = sum / 10;
 
             // Create a new node for this digit
