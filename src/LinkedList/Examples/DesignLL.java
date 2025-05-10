@@ -88,6 +88,7 @@ class MyLinkedList {
         }
 
         ListNode curr = head;  // Start from the head (dummy node)
+
         size--;  // Decrease the size of the list
 
         // Traverse to the node just before the node to be deleted
