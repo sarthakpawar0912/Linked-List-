@@ -81,6 +81,7 @@ class MyLinkedList {
 
     // Delete the node at the specified index
     public void deleteAtIndex(int index) {
+
         // If the index is out of bounds, do nothing
         if (index < 0 || index >= size) {
             return;
