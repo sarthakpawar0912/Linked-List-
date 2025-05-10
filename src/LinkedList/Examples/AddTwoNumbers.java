@@ -97,6 +97,7 @@ public class AddTwoNumbers {
         // Print result
         System.out.println("Sum:");
         printList(result);
+
     }
 
     // Helper function to print the linked list
