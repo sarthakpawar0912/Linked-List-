@@ -88,6 +88,7 @@ public class MergeTwoSortedLL {
             System.out.print(temp.value + " -> ");
 
             temp = temp.next;
+
         }
         System.out.println("END");
     }
