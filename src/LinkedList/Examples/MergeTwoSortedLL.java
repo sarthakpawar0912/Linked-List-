@@ -75,6 +75,7 @@ public class MergeTwoSortedLL {
         temp.next = node;
 
         size++;
+
     }
 
     // Display the list
