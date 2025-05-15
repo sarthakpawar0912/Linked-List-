@@ -56,6 +56,7 @@ public class MergeTwoSortedLL {
         if (index == size) {
 
             insertLast(val);
+
             return;
         }
         Node temp = head;
