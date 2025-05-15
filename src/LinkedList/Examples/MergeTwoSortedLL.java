@@ -70,6 +70,8 @@ public class MergeTwoSortedLL {
         }
 
         Node node = new Node(val, temp.next);
+
+
         temp.next = node;
         size++;
     }
