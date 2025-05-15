@@ -58,6 +58,7 @@ public class MergeTwoSortedLL {
             insertLast(val);
 
             return;
+
         }
         Node temp = head;
         for (int i = 1; i < index; i++) {
