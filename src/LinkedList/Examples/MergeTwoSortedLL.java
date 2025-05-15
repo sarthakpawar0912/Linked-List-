@@ -48,6 +48,7 @@ public class MergeTwoSortedLL {
         if (index == 0) {
 
             insertFirst(val);
+
             return;
         }
 
