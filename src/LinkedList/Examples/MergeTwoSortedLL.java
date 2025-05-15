@@ -80,6 +80,7 @@ public class MergeTwoSortedLL {
 
     // Display the list
     public void display() {
+
         Node temp = head;
         while (temp != null) {
             System.out.print(temp.value + " -> ");
