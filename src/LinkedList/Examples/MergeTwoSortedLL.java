@@ -46,6 +46,7 @@ public class MergeTwoSortedLL {
     public void insert(int val, int index) {
 
         if (index == 0) {
+
             insertFirst(val);
             return;
         }
